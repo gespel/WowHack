@@ -25,7 +25,7 @@ def update_overlay():
         for x in range(screen_width):
             pixel = px[x, y]
             #if pixel[0] == 36 and pixel[1] ==  25 and pixel[2] == 39:
-            if is_color_in_range(pixel, (119, 88, 130), 10):
+            if is_color_in_range(pixel, (119, 88, 130), 15):
                 canvas.create_rectangle(x-5, y-5, x+5, y+5, outline="lightgreen")
                 #print(f"x={x}, y={y}")
 

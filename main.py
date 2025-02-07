@@ -1,6 +1,5 @@
 import tkinter as tk
 from PIL import ImageGrab
-from Tools.scripts.generate_re_casefix import alpha
 
 root = tk.Tk()
 root.overrideredirect(True)
